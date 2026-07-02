@@ -1,9 +1,10 @@
 export const siteConfig = {
   companyName: "Dismento Nigeria Ltd",
-  colors: {
-    primary: "bg-slate-900", 
-    primaryHover: "hover:bg-slate-800",
-    textHighlight: "text-amber-500", 
+colors: {
+  primary: "bg-neutral-900", 
+  primaryHover: "hover:bg-neutral-700",
+  textHighlight: "text-cyan-500",
+  
   },
   contact: {
     phone: "+234 803 450 1917", 
