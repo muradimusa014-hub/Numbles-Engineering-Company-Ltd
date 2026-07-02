@@ -21,7 +21,7 @@ export default function Home() {
         {/* The Background */}
         <div className="absolute inset-0 z-0 bg-slate-950">
           <img 
-            src="https://unsplash.com/photos/person-holding-white-printer-paper-WDCE0T4khsE" 
+            src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
             alt="Engineering Site" 
             className="w-full h-full object-cover opacity-30"
           />
