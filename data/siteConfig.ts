@@ -1,34 +1,32 @@
 export const siteConfig = {
-  companyName: "Syal Engineering Ltd",
+  companyName: "Dismento Nigeria Ltd",
   colors: {
     primary: "bg-slate-900", 
     primaryHover: "hover:bg-slate-800",
-    textHighlight: "text-amber-500", // Construction Amber
+    textHighlight: "text-amber-500", 
   },
   contact: {
-    phone: "+234 806 076 9201", // Syal's actual scraped number
-    email: "projects@syalengineering.com",
-    address: "Zaria Road, Kaduna, Nigeria",
-    whatsappMessage: "Hello, I would like to request a consultation regarding an upcoming project."
+    phone: "+234 803 450 1917", 
+    email: "projects@dismento.com.ng",
+    address: "25, Old Sokoto Road, Kaduna, Nigeria",
+    whatsappMessage: "Hello, I would like to request an engineering consultation and RFP submission."
   },
   forms: {
     contactApiKey: "YOUR_WEB3FORMS_ACCESS_KEY_HERE", 
-    newsletterSuccessMessage: "You have been added to our procurement updates list."
+    newsletterSuccessMessage: "You are now subscribed to our corporate procurement updates."
   },
   about: {
-    title: "Engineering the Future",
-    description: "We are a premier heavy engineering and infrastructure development firm operating across the Kaduna-Zaria axis.",
-    mission: "To deliver structurally flawless projects on time, within budget, and strictly above national safety standards.",
-    
-    // Completely dynamic for Muradi to change per client
+    title: "Precision in Heavy Engineering",
+    description: "Dismento Nigeria Ltd is a premier civil engineering and infrastructure development firm operating from the heart of Kaduna. We specialize in transforming complex architectural blueprints into robust physical realities.",
+    mission: "To deliver structurally uncompromising projects that drive industrial and commercial growth across Northern Nigeria.",
     coreValues: [
-      { title: "Safety First", description: "Zero-compromise HSE protocols on every active site." },
-      { title: "Precision", description: "Exacting standards from blueprint to foundation." }
+      { title: "Uncompromising Safety", description: "Rigorous HSE protocols govern every stage of our site operations." },
+      { title: "Structural Excellence", description: "Sourcing only top-tier materials to guarantee multi-generational durability." }
     ],
     milestones: [
-      { year: "Phase 1", title: "Regional Expansion", desc: "Solidified operations across the Kaduna-Zaria industrial corridor." },
-      { year: "Phase 2", title: "Heavy Machinery", desc: "Acquired a robust fleet of industrial-grade equipment for large-scale procurement." },
-      { year: "Phase 3", title: "Infrastructure Dominance", desc: "Recognized as a leading contractor for high-tier development projects." }
+      { year: "Phase 1", title: "Regional Foundation", desc: "Established core engineering operations along the Old Sokoto Road industrial corridor." },
+      { year: "Phase 2", title: "Logistical Expansion", desc: "Scaled our procurement network for rapid heavy machinery deployment." },
+      { year: "Phase 3", title: "Infrastructure Leaders", desc: "Recognized as a trusted partner for commercial development in Kaduna State." }
     ]
   }
 };
