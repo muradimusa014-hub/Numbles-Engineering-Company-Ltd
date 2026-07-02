@@ -9,35 +9,35 @@ export interface Service {
 export const services: Service[] = [
   {
     id: "civil-structural",
-    title: "Civil & Structural Engineering",
-    shortDescription: "End-to-end structural design and infrastructure development.",
+    title: "Civil & Structural Works",
+    shortDescription: "End-to-end development for commercial and industrial facilities.",
     iconName: "Building",
     coreCapabilities: [
-      "Foundation Engineering",
-      "Steel & Concrete Detailing",
-      "Structural Integrity Audits"
+      "Deep Foundation Engineering",
+      "Reinforced Concrete Structures",
+      "Structural Integrity Assessments"
     ]
   },
   {
-    id: "project-management",
-    title: "Project & Site Management",
-    shortDescription: "Complete oversight from groundbreaking to final handover.",
+    id: "site-management",
+    title: "Comprehensive Site Management",
+    shortDescription: "Expert oversight to ensure zero delays and maximum compliance.",
     iconName: "HardHat",
     coreCapabilities: [
-      "Contractor Coordination",
-      "HSE Compliance",
-      "Quality Assurance Testing"
+      "HSE Protocol Enforcement",
+      "Sub-contractor Coordination",
+      "Timeline & Resource Optimization"
     ]
   },
   {
-    id: "procurement",
-    title: "Heavy Procurement & Logistics",
-    shortDescription: "Sourcing and transporting industrial-grade materials.",
+    id: "heavy-procurement",
+    title: "Logistics & Procurement",
+    shortDescription: "Strategic sourcing of industrial-grade construction materials.",
     iconName: "Truck",
     coreCapabilities: [
-      "Supply Chain Optimization",
-      "Heavy Machinery Rental",
-      "Material Quality Verification"
+      "Heavy Machinery Deployment",
+      "Material Quality Verification",
+      "Supply Chain Optimization"
     ]
   }
 ];
