@@ -1,9 +1,9 @@
 export const siteConfig = {
   companyName: "Dismento Nigeria Ltd",
 colors: {
-  primary: "bg-neutral-900", 
-  primaryHover: "hover:bg-neutral-700",
-  textHighlight: "text-cyan-500",
+  primary: "bg-indigo-900", 
+  primaryHover: "hover:bg-indigo-700",
+  textHighlight: "text-fuchsia-500"
   
   },
   contact: {
