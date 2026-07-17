@@ -1,33 +1,64 @@
 export const siteConfig = {
-  companyName: "Dismento Nigeria Ltd",
-colors: {
-  primary: "bg-indigo-900", 
-  primaryHover: "hover:bg-indigo-700",
-  textHighlight: "text-fuchsia-500"
-  
+  companyName: "Numbles Engineering Company Ltd",
+  colors: {
+    primary: "bg-blue-900",
+    primaryHover: "hover:bg-blue-800",
+    textHighlight: "text-cyan-400",
   },
   contact: {
-    phone: "+234 803 450 1917", 
-    email: "projects@dismento.com.ng",
-    address: "25, Old Sokoto Road, Kaduna, Nigeria",
-    whatsappMessage: "Hello, I would like to request an engineering consultation and RFP submission."
+    phone: "+234 816 405 9954",
+    email: "info@numblesengineering.com",
+    address: "290A Ajose Adeogun St, Victoria Island, Lagos 106104, Nigeria",
+    whatsappMessage:
+      "Hello, I would like to inquire about your automation training programs and engineering services."
   },
   forms: {
-    contactApiKey: "YOUR_WEB3FORMS_ACCESS_KEY_HERE", 
-    newsletterSuccessMessage: "You are now subscribed to our corporate procurement updates."
+    contactApiKey: "YOUR_WEB3FORMS_ACCESS_KEY_HERE",
+    newsletterSuccessMessage:
+      "You have successfully subscribed to our automation training updates and engineering newsletter."
   },
   about: {
-    title: "Precision in Heavy Engineering",
-    description: "Dismento Nigeria Ltd is a premier civil engineering and infrastructure development firm operating from the heart of Kaduna. We specialize in transforming complex architectural blueprints into robust physical realities.",
-    mission: "To deliver structurally uncompromising projects that drive industrial and commercial growth across Northern Nigeria.",
+    title: "Empowering the Future Through Automation",
+    description:
+      "Numbles Engineering Company Ltd is a leading engineering and automation training company dedicated to equipping individuals and organizations with practical, industry-ready skills. We provide both online and onsite training programs, combining expert instruction with hands-on experience in industrial automation, robotics, embedded systems, and modern engineering technologies.",
+    mission:
+      "To bridge the gap between education and industry by delivering world-class automation training, innovative engineering solutions, and practical technical expertise that empower the next generation of engineers and technicians.",
     coreValues: [
-      { title: "Uncompromising Safety", description: "Rigorous HSE protocols govern every stage of our site operations." },
-      { title: "Structural Excellence", description: "Sourcing only top-tier materials to guarantee multi-generational durability." }
+      {
+        title: "Practical Excellence",
+        description:
+          "Our training emphasizes hands-on learning, ensuring every participant gains real-world experience."
+      },
+      {
+        title: "Innovation",
+        description:
+          "We embrace emerging technologies and continuously update our programs to meet global industry standards."
+      },
+      {
+        title: "Professional Integrity",
+        description:
+          "We are committed to delivering quality training and engineering services with honesty, excellence, and professionalism."
+      }
     ],
     milestones: [
-      { year: "Phase 1", title: "Regional Foundation", desc: "Established core engineering operations along the Old Sokoto Road industrial corridor." },
-      { year: "Phase 2", title: "Logistical Expansion", desc: "Scaled our procurement network for rapid heavy machinery deployment." },
-      { year: "Phase 3", title: "Infrastructure Leaders", desc: "Recognized as a trusted partner for commercial development in Kaduna State." }
+      {
+        year: "Phase 1",
+        title: "Training Foundation",
+        desc:
+          "Established to provide accessible online and onsite automation training for students, graduates, and industry professionals."
+      },
+      {
+        year: "Phase 2",
+        title: "Technology Expansion",
+        desc:
+          "Expanded our expertise to include PLC programming, SCADA, HMI, robotics, Arduino, IoT, industrial instrumentation, and electrical control systems."
+      },
+      {
+        year: "Phase 3",
+        title: "Industry Excellence",
+        desc:
+          "Recognized as a trusted automation training and engineering solutions provider, producing industry-ready professionals through practical learning and innovation."
+      }
     ]
   }
 };
