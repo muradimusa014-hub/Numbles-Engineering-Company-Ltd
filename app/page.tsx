@@ -5,10 +5,10 @@ import { Building, HardHat, Truck, Ruler, ArrowRight, CheckCircle2 } from "lucid
 
 // Helper to map string names from data to actual Lucide components
 const IconMap = {
-  Building: Building,
-  HardHat: HardHat,
-  Truck: Truck,
-  Ruler: Ruler,
+  Cpu: Cpu,
+  CircuitBoard: CircuitBoard,
+  Bot: Bot,
+  GraduationCap: GraduationCap,
 };
 
 export default function Home() {
