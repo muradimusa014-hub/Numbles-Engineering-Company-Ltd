@@ -2,42 +2,57 @@ export interface Service {
   id: string;
   title: string;
   shortDescription: string;
-  iconName: "Building" | "HardHat" | "Truck" | "Ruler"; 
+  iconName: "Cpu" | "CircuitBoard" | "Bot" | "GraduationCap";
   coreCapabilities: string[];
 }
 
 export const services: Service[] = [
   {
-    id: "civil-structural",
-    title: "Civil & Structural Works",
-    shortDescription: "End-to-end development for commercial and industrial facilities.",
-    iconName: "Building",
+    id: "industrial-automation",
+    title: "Industrial Automation Training",
+    shortDescription:
+      "Hands-on training in industrial automation technologies for students and professionals.",
+    iconName: "Cpu",
     coreCapabilities: [
-      "Deep Foundation Engineering",
-      "Reinforced Concrete Structures",
-      "Structural Integrity Assessments"
+      "PLC Programming & Troubleshooting",
+      "SCADA & HMI Development",
+      "Industrial Automation Systems"
     ]
   },
   {
-    id: "site-management",
-    title: "Comprehensive Site Management",
-    shortDescription: "Expert oversight to ensure zero delays and maximum compliance.",
-    iconName: "HardHat",
+    id: "embedded-iot",
+    title: "Embedded Systems & IoT",
+    shortDescription:
+      "Practical courses in embedded programming and smart connected devices.",
+    iconName: "CircuitBoard",
     coreCapabilities: [
-      "HSE Protocol Enforcement",
-      "Sub-contractor Coordination",
-      "Timeline & Resource Optimization"
+      "Arduino Programming",
+      "ESP32 & IoT Applications",
+      "Sensor Integration & Data Acquisition"
     ]
   },
   {
-    id: "heavy-procurement",
-    title: "Logistics & Procurement",
-    shortDescription: "Strategic sourcing of industrial-grade construction materials.",
-    iconName: "Truck",
+    id: "robotics-mechatronics",
+    title: "Robotics & Mechatronics",
+    shortDescription:
+      "Develop practical skills in robotics, mechatronics, and intelligent control systems.",
+    iconName: "Bot",
     coreCapabilities: [
-      "Heavy Machinery Deployment",
-      "Material Quality Verification",
-      "Supply Chain Optimization"
+      "Robot Design & Programming",
+      "Motor Control Systems",
+      "Automation Project Development"
+    ]
+  },
+  {
+    id: "professional-development",
+    title: "Professional Development",
+    shortDescription:
+      "Industry-focused training programs that prepare learners for automation careers.",
+    iconName: "GraduationCap",
+    coreCapabilities: [
+      "Hands-on Laboratory Sessions",
+      "Industry Certification Preparation",
+      "Capstone Projects & Career Mentorship"
     ]
   }
 ];
