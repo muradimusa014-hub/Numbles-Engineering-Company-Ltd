@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/data/siteConfig";
 import { services } from "@/data/services";
-import { Building, HardHat, Truck, Ruler, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Cpu, CircuitBoard, Bot, GraduationCap } from "lucide-react";
 
 // Helper to map string names from data to actual Lucide components
 const IconMap = {
